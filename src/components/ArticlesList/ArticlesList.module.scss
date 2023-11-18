@@ -1,0 +1,14 @@
+.article__list {
+  display: flex;
+  flex-direction: column;
+  padding: 26px 0;
+  gap: 36px;
+  width: auto;
+  margin: 0 auto;
+  &__pagination {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 938px;
+  }
+}
